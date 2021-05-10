@@ -1,0 +1,145 @@
+:root {
+    /* colors */
+    --primaryOrange: hsl(31, 77%, 52%);
+    --primaryCyan: hsl(184, 100%, 22%);
+    --primaryDarkCyan: hsl(179, 100%, 13%);
+    /* paragraphs */
+    --transparentWhite: hsla(0, 0%, 100%, 0.75);
+    /* background,headings, buttons */
+    --lightGray: hsl(0, 0%, 95%);
+    /* fonts */
+    --bodyFont: 'Lexend Deca', sans-serif;
+    --headings: 'Big Shoulders Display', cursive;
+}
+
+body {
+    font-size: 15px;
+    font-family: var(--bodyFont);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: var(--headings);
+    font-size: 2.4rem;
+    color: var(--lightGray);
+}
+
+p {
+    /* font-size: 1rem; */
+    color: var(--lightGray);
+    color: var(--transparentWhite);
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.cards-container {
+    /* width: %; */
+    margin: 0 auto;
+    /* padding: 1rem; */
+}
+
+.card {
+    padding: 3rem 3rem 2.5rem 3rem;
+    color: var(--transparentWhite);
+    height: 55vh;
+}
+
+.card:first-child {
+    background: var(--primaryOrange);
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+#sedan-btn {
+    color: var(--primaryOrange);
+}
+
+.card:nth-child(2) {
+    background: var(--primaryCyan);
+}
+
+#suvs-btn {
+    color: var(--primaryCyan);
+}
+
+.card:last-child {
+    background: var(--primaryDarkCyan);
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+#luxury-btn {
+    color: var(--primaryDarkCyan);
+}
+
+.card>button {
+    background-color: var(--lightGray);
+    font-size: 1rem;
+    border-radius: 5rem;
+    padding: 1rem 2.4rem;
+    margin-top: 2.5rem;
+    margin-bottom: 33rem;
+    border: none;
+    width: 60%;
+}
+
+.card>button:hover {
+    transition: 0.5s;
+    color: white!important;
+    background-color: transparent;
+    border-radius: 5rem;
+    outline: white solid 1px;
+}
+
+@media screen and (min-width:1024px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        height: 100vh;
+    }
+    h2 {
+        /* font-size: 2.5rem; */
+        letter-spacing: .3px;
+        margin-bottom: 0.7rem;
+    }
+    p {
+        margin-bottom: 3rem;
+    }
+    .cards-container {
+        display: flex;
+        width: 920px;
+        margin: 0 auto;
+        height: 70%;
+    }
+    .card {
+        /* font-size: .4rem; */
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        padding: 4rem;
+        width: 30vh;
+        height: 100%;
+    }
+    .card-img {
+        margin-top: 1rem;
+    }
+    .card>button {
+        padding: 1rem 1.2rem;
+        margin-bottom: 4rem;
+        width: 80%;
+        line-height: 25px;
+    }
+    .card:first-child {
+        border-radius: 0.5rem 0 0 0.5rem;
+    }
+    .card:last-child {
+        border-radius: 0 0.5rem 0.5rem 0;
+    }
+    footer {
+        margin: .1rem;
+    }
+}
