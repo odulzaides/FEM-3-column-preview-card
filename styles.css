@@ -99,6 +99,9 @@ p {
         justify-content: center;
         justify-items: center;
         height: 100vh;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
     }
     h2 {
         /* font-size: 2.5rem; */
@@ -132,6 +135,7 @@ p {
         margin-bottom: 4rem;
         width: 80%;
         line-height: 25px;
+        cursor: pointer;
     }
     .card:first-child {
         border-radius: 0.5rem 0 0 0.5rem;
@@ -140,6 +144,6 @@ p {
         border-radius: 0 0.5rem 0.5rem 0;
     }
     footer {
-        margin: .1rem;
+        margin-top: 9.5rem;
     }
 }
