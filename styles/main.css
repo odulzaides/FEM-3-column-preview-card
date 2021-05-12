@@ -1,13 +1,13 @@
 /* colors */
 /* paragraphs */
-.card {
+.car-types__card {
   padding: 3.3rem 3.5rem 2.5rem 3.2rem;
   color: rgba(255, 255, 255, 0.75);
   font-size: 15px;
   height: 60vh;
 }
 
-.card:first-child {
+.car-types__card:first-child {
   background: #e38826;
   border-radius: 0.5rem 0.5rem 0 0;
 }
@@ -16,7 +16,7 @@
   color: #e38826;
 }
 
-.card:nth-child(2) {
+.car-types__card:nth-child(2) {
   background: #006970;
 }
 
@@ -24,7 +24,7 @@
   color: #006970;
 }
 
-.card:last-child {
+.car-types__card:last-child {
   background: #004241;
   border-radius: 0 0 0.5rem 0.5rem;
 }
@@ -33,11 +33,11 @@
   color: #004241;
 }
 
-.card-body {
+.car-types__card--body {
   line-height: 1.6;
 }
 
-.card > button {
+.car-types__card > button {
   background-color: #f2f2f2;
   font-size: 1rem;
   border-radius: 5rem;
@@ -48,7 +48,7 @@
   width: 60%;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 994px) {
   body {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -77,7 +77,7 @@
   section {
     position: relative;
   }
-  .cards-container {
+  .car-types {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -89,7 +89,7 @@
     display: flex;
     width: 920px;
   }
-  .card {
+  .car-types__card {
     /* font-size: .4rem; */
     font-weight: 400;
     display: -webkit-box;
@@ -103,17 +103,17 @@
     width: 30vh;
     height: 100%;
   }
-  .card-img {
+  .car-types__card__img {
     margin-top: 1rem;
   }
-  .card > button {
+  .car-types__card > button {
     padding: .8rem 1.4rem;
     margin-bottom: 2.5rem;
     width: 80%;
     line-height: 25px;
     cursor: pointer;
   }
-  .card > button:hover {
+  .car-types__card > button:hover {
     border: white solid 1px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -121,14 +121,16 @@
     background-color: transparent;
     border-radius: 5rem;
   }
-  .card:first-child {
+  .car-types__card:first-child {
     border-radius: 0.5rem 0 0 0.5rem;
   }
-  .card:last-child {
+  .car-types__card:last-child {
     border-radius: 0 0.5rem 0.5rem 0;
   }
   footer {
-    margin-top: 1rem;
+    position: relative;
+    top: 82vh;
+    margin-top: 2.2rem;
   }
 }
 

@@ -1,4 +1,4 @@
-.card {
+.car-types__card {
     padding: 3.3rem 3.5rem 2.5rem 3.2rem;
     color: $transparentWhite;
     font-size: 15px;
@@ -6,7 +6,7 @@
     height: 60vh;
 }
 
-.card:first-child {
+.car-types__card:first-child {
     background: $primaryOrange;
     border-radius: 0.5rem 0.5rem 0 0;
 }
@@ -15,7 +15,7 @@
     color: $primaryOrange;
 }
 
-.card:nth-child(2) {
+.car-types__card:nth-child(2) {
     background: $primaryCyan;
 }
 
@@ -23,7 +23,7 @@
     color: $primaryCyan;
 }
 
-.card:last-child {
+.car-types__card:last-child {
     background: $primaryDarkCyan;
     border-radius: 0 0 0.5rem 0.5rem;
 }
@@ -32,11 +32,11 @@
     color: $primaryDarkCyan;
 }
 
-.card-body {
+.car-types__card--body {
     line-height: 1.6;
 }
 
-.card>button {
+.car-types__card>button {
     // position: relative;
     // top: -60px;
     background-color: $lightGray;

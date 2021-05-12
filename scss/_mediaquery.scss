@@ -1,4 +1,4 @@
-        @media screen and (min-width:1024px) {
+        @media screen and (min-width:994px) {
             body {
                 display: flex;
                 justify-content: space-evenly;
@@ -20,7 +20,7 @@
             section {
                 position: relative;
             }
-            .cards-container {
+            .car-types {
                 position: absolute;
                 top: 50%;
                 left: 50%;
@@ -29,7 +29,7 @@
                 display: flex;
                 width: 920px;
             }
-            .card {
+            .car-types__card {
                 /* font-size: .4rem; */
                 font-weight: 400;
                 display: flex;
@@ -38,10 +38,10 @@
                 width: 30vh;
                 height: 100%;
             }
-            .card-img {
+            .car-types__card__img {
                 margin-top: 1rem;
             }
-            .card>button {
+            .car-types__card>button {
                 padding: .8rem 1.4rem;
                 margin-bottom: 2.5rem;
                 width: 80%;
@@ -55,13 +55,15 @@
                     border-radius: 5rem;
                 }
             }
-            .card:first-child {
+            .car-types__card:first-child {
                 border-radius: 0.5rem 0 0 0.5rem;
             }
-            .card:last-child {
+            .car-types__card:last-child {
                 border-radius: 0 0.5rem 0.5rem 0;
             }
             footer {
-                margin-top: 1rem;
+                position: relative;
+                top: 82vh;
+                margin-top: 2.2rem;
             }
         }
