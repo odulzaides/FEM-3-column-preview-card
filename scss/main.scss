@@ -1,0 +1,31 @@
+@import './variables';
+@import './card';
+@import './mediaquery';
+body {
+    font-size: 15px;
+    font-family: $bodyFont;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: $headings;
+    font-size: 2.4rem;
+    color: $lightGray;
+    font-weight: 400;
+}
+
+p {
+    /* font-size: 1rem; */
+    color: $lightGray;
+    color: $transparentWhite;
+}
+
+.container {
+    margin: 0 auto;
+    height: 110vh;
+}
+
+h2 {
+    text-transform: uppercase;
+}

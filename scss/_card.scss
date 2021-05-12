@@ -1,0 +1,50 @@
+.card {
+    padding: 3.3rem 3.5rem 2.5rem 3.2rem;
+    color: $transparentWhite;
+    font-size: 15px;
+    // letter-spacing: 1px;
+    height: 60vh;
+}
+
+.card:first-child {
+    background: $primaryOrange;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+#sedan-btn {
+    color: $primaryOrange;
+}
+
+.card:nth-child(2) {
+    background: $primaryCyan;
+}
+
+#suvs-btn {
+    color: $primaryCyan;
+}
+
+.card:last-child {
+    background: $primaryDarkCyan;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+#luxury-btn {
+    color: $primaryDarkCyan;
+}
+
+.card-body {
+    line-height: 1.6;
+}
+
+.card>button {
+    // position: relative;
+    // top: -60px;
+    background-color: $lightGray;
+    font-size: 1rem;
+    border-radius: 5rem;
+    padding: 1rem 2.4rem;
+    margin-top: 2rem;
+    margin-bottom: -100rem;
+    border: none;
+    width: 60%;
+}
